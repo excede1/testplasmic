@@ -1,0 +1,133 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "f2b9DHN2DrvB6wFtHBQYGd",
+      "projectApiToken": "CAPIgez4RtNms7cHMKtbaLLUHf60RD91AmWAFb2KrenpUHOl19koJds0mW9EEtyNFCR3FVWB7kHtiFEsi3EA",
+      "projectName": "TodoMVC app",
+      "version": "latest",
+      "cssFilePath": "plasmic/todo_mvc_app/plasmic_todo_mvc_app.module.css",
+      "components": [
+        {
+          "id": "cUGICFLjdlozT",
+          "name": "TodoApp",
+          "type": "managed",
+          "projectId": "f2b9DHN2DrvB6wFtHBQYGd",
+          "renderModuleFilePath": "plasmic/todo_mvc_app/PlasmicTodoApp.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc_app/PlasmicTodoApp.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "l4JHRTTG9DTqF",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "f2b9DHN2DrvB6wFtHBQYGd",
+          "renderModuleFilePath": "plasmic/todo_mvc_app/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc_app/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nVFFxfuVMWqXx",
+          "name": "Task",
+          "type": "managed",
+          "projectId": "f2b9DHN2DrvB6wFtHBQYGd",
+          "renderModuleFilePath": "plasmic/todo_mvc_app/PlasmicTask.tsx",
+          "importSpec": {
+            "modulePath": "Task.tsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc_app/PlasmicTask.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "seGn4jU5MegYV",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "f2b9DHN2DrvB6wFtHBQYGd",
+          "renderModuleFilePath": "plasmic/todo_mvc_app/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc_app/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "C39FfGXrmvxHq",
+          "name": "ToggleButton",
+          "type": "managed",
+          "projectId": "f2b9DHN2DrvB6wFtHBQYGd",
+          "renderModuleFilePath": "plasmic/todo_mvc_app/PlasmicToggleButton.tsx",
+          "importSpec": {
+            "modulePath": "ToggleButton.tsx"
+          },
+          "cssFilePath": "plasmic/todo_mvc_app/PlasmicToggleButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "4ktzck_Qpg_8T",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "y_4LvMmuF4R_0",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "zjTf886GGOJ0x",
+        "name": "Theme",
+        "projectId": "f2b9DHN2DrvB6wFtHBQYGd",
+        "contextFilePath": "plasmic/todo_mvc_app/PlasmicGlobalVariant__Theme.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.295",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.295/dist/plasmic.schema.json"
+}

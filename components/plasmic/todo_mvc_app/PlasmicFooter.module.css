@@ -1,0 +1,84 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  padding: 10px 15px;
+}
+.freeBox__qyCbu {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: 14px;
+  left: 15px;
+}
+.freeBoxstate_singularLeft__qyCbUmxlM {
+  left: 15px;
+}
+.text__vlYlr {
+  color: var(--token-xj-o5rS-96bSNN);
+}
+.freeBox__wWlHf {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.freeBox__wWlHf > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.freeBox__wWlHf > :global(.__wab_flex-container) > *,
+.freeBox__wWlHf > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__wWlHf > :global(.__wab_flex-container) > picture > img,
+.freeBox__wWlHf
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.toggleButton__ftuOf:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  height: auto;
+  align-self: flex-start;
+}
+.toggleButton__zkpvw:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  height: auto;
+  align-self: flex-start;
+}
+.toggleButton__bAnLh:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  height: auto;
+  align-self: flex-start;
+}
+.text__l97Wi {
+  position: absolute;
+  color: var(--token-xj-o5rS-96bSNN);
+  left: 371px;
+  top: 14px;
+  cursor: pointer;
+}
+.textstate_hasCompleted__l97WiLySal {
+  left: auto;
+  right: 15px;
+}
+.footerContainer .text__l97Wi:hover {
+  text-decoration-line: underline;
+}
